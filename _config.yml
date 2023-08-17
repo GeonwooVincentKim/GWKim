@@ -4,7 +4,8 @@ title: "Geonwoo Kim"
 description: "Happy developer, Geonwoo Kim"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /geonwoovincentkim.github.io
+# baseurl: /geonwoovincentkim.github.io
+baseUrl: /
 # baseurl: /geonwookim.github.io
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
