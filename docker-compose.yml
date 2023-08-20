@@ -1,7 +1,12 @@
-jekyll:
-    image: jekyll/jekyll:latest
-    command: jekyll serve --force_polling
+version: "3"
+
+services:
+  jekyll:
+    container_name: jekyll
+    build:
+      context: .
+      dockerfile: Dockerfile 
     ports:
-        - 4000:4000
+      - 4000:4000 
     volumes:
-        - .:/srv/jekyll
+      - ./:/workspace
